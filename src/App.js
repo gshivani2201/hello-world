@@ -1,12 +1,12 @@
 import './App.css';
-import React, {Component} from 'react'
-import Form from './components/Form';
+//import React, {Component} from 'react'
+import LifecycleA from './components/LifecycleA';
 
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifecycleA />
     </div>
   );
 }
