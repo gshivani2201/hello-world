@@ -1,11 +1,11 @@
 import './App.css';
-import Table from './components/Table';
+import ParentComp from './components/ParentComp';
 
 
 function App() {
   return (
-    <div>
-      <Table />
+    <div className='App'>
+      <ParentComp />
     </div>
   );
 }
