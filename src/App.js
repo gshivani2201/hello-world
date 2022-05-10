@@ -1,16 +1,14 @@
-import './App.css';
-import ErrorBoundary from './components/ErrorBoundary';
-import Hero from './components/Hero';
+import './App.css'
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+
 
 
 function App() {
   return (
     <div className='App'>
-      <ErrorBoundary>
-        <Hero heroName='Iron Man'/>
-        <Hero heroName='Thor'/>
-        <Hero heroName='Thanos'/>
-      </ErrorBoundary>
+      <ClickCounter />
+      <HoverCounter />
     </div>
   );
 }
